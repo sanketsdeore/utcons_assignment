@@ -11,6 +11,9 @@ app.use(express.json());
 
 app.use("/api", require("./routes/authRoutes"));
 
+app.get("/", (req, res) => {
+  res.send("UTCONS Auth API Running");
+});
 
 mongoose.connect(process.env.MONGO_URI)
 .then(() => {
