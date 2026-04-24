@@ -273,8 +273,8 @@ https://utcons-assignment.onrender.com
 # Demo Credentials
 
 ```txt
-Email: test@gmail.com
-Password: 123456
+Email: test1@gmail.com
+Password: 12345
 ```
 - JWT token-based authentication
 - Persistent login using AsyncStorage
@@ -359,73 +359,6 @@ baseURL: "https://utcons-assignment.onrender.com/api"
 4. Start frontend
 
 npx expo start
-
----
-
-Project Structure Explanation
-
-Frontend Structure
-
-frontend/
-│
-├── screens/
-│   ├── OnboardingScreen.js
-│   ├── LoginScreen.js
-│   ├── SignupScreen.js
-│   └── HomeScreen.js
-│
-├── services/
-│   └── api.js
-│
-├── android/
-│
-├── App.js
-│
-└── app.json
-
-Explanation
-
-- "screens/"
-  Contains all application screens.
-
-- "services/api.js"
-  Handles API communication using Axios.
-
-- "App.js"
-  Handles navigation and authentication flow logic.
-
----
-
-Backend Structure
-
-backend/
-│
-├── models/
-│   └── User.js
-│
-├── routes/
-│   └── authRoutes.js
-│
-├── middleware/
-│   └── authMiddleware.js
-│
-├── server.js
-│
-└── .env
-
-Explanation
-
-- "models/"
-  Contains MongoDB models.
-
-- "routes/"
-  Contains authentication API routes.
-
-- "middleware/"
-  Contains JWT authentication middleware.
-
-- "server.js"
-  Main backend server entry point.
 
 ---
 
