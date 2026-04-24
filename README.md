@@ -8,6 +8,12 @@ The application is built with a React Native frontend and a Node.js + Express ba
 
 ---
 
+# APK Download 
+
+[Download APK](https://drive.google.com/file/d/1spjxIyQWVfocMNfl3oQcjyKOufFi1HB1/view?usp=drivesdk)
+
+---
+
 # Features
 
 * Onboarding screens for first-time users
